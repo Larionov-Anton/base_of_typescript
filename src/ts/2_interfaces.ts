@@ -1,5 +1,5 @@
 
-// *Интерфейсы
+// *Интерфейсы для обьектов
 
 interface Rect {
 	readonly id: string
@@ -9,6 +9,8 @@ interface Rect {
 		height: number
 	}
 }
+
+// Реализация интерфейса
 
 const rect1: Rect = {
 	id: '1231',
